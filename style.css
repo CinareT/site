@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Herr+Von+Muellerhoff&family=Josefin+Sans:ital,wght@0,200;0,300;0,400;0,700;1,100&family=Libre+Franklin:ital,wght@1,300&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,300&family=Roboto:wght@100&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 7px;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.6rem;
+    line-height: 1.5;
+    text-align: center;
+    background-color: #333;
+    color: white;
+}
+a{
+    text-decoration: none;
+}
+p{
+    padding: 1.6rem 0;
+}
+img{
+    width: 100%;
+    height: auto;
+}
+.clearfix{
+    content: "";
+    display: block;
+    clear: both;
+}
+header{
+    height: 45vh;
+    
+}
+header .bg-image{
+    position: absolute;
+    background-image: url(./sergey-zolkin-_UeY8aTI6d0-unsplash.jpg);
+    height: 45vh;
+    background-position: center;
+    width: 100%;
+    background-size: cover;
+    opacity: 0.4;
+    z-index: -1;
+}
+header h1{
+    padding: 11rem;
+    padding-bottom: 0;
+}
+.btn{
+    display: inline-block;
+    background: #333;
+    color: #fff;
+    border: 1px soli #666;
+    padding: 1.6rem 3.2rem;
+    margin: .5rem 0;
+    transition: all 0.5s;
+}
+.btn:hover{
+    background-color: #eaeaea;
+    color: #333;
+}
+/*sec-a*/
+#section-a{
+    background-color: #eaeaea;
+    color: #333;
+    padding: 3.2rem 0;
+}
+
+/* section-b*/
+#section-b{
+    padding: 2rem;
+}
+#section-b ul{
+    list-style: none;
+}
+#section-b li{
+    background: #fff;
+    color: #333;
+    margin-bottom: 1.5rem;
+}
+.col-content{
+    padding: 1.5rem;
+}
+#section-c{
+    background-color: #eaeaea;
+    color: #333;
+    padding: 5rem;
+}
+
+/*section-d*/
+#section-d .box:first-child{
+    background-color: #2690d4;
+}
+#section-d .box{
+    padding: 5rem;
+}
+
+/* footer*/
+footer{
+    padding: 4rem;
+    background: #000;
+}
+footer a{
+    color: #2690d4;
+}
+@media screen and (min-width:700px){
+    #section-b li{
+        width: 28%;
+        margin: 1%;
+        display: inline-block;
+    }
+    .box{
+        width: 50%;
+        float: left;
+    }
+    html{
+        font-size: 10px;
+    }
+}
+@media screen and (min-width:1200px){
+    html{
+        font-size: 12px;
+    }
+}
